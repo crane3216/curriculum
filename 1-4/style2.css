@@ -55,8 +55,64 @@
   background-color: #d98d30;
 }
 
-@media screen{
+@media screen {
   .main{
     width: 400px;
   }
+}
+
+@media screen and (max-width: 767px) {
+  .header{
+    width: 300px;
+  }
+  .right-l-upper{
+    width: 125px;
+  }
+  .right-l-left{
+    width: 75px;
+  }
+  .right-l-lower{
+    width: 125px;
+  }
+  .right-lower{
+    width: 200px;
+  }
+  .left{
+    width: 100px;
+  }
+  .footer{
+    width: 300px;
+  }
+  
+}
+
+@media screen and (max-width: 479px) {
+  .header{
+    width: 150px;
+  }
+  .left{
+    clear: left;
+    width: 150px;
+    height: 100px;
+  }
+  .right-l-left{
+    clear: left;
+    width: 150px;
+    height: 100px;
+  }
+  .right-l-upper{
+    clear: left;
+    width: 150px;
+  }
+  .right-l-lower{
+    width: 150px;
+  }
+  .right-lower{
+    width: 150px;
+  }
+  .footer{
+    margin-top: 200px;
+    width: 150px;
+  }
+  
 }
