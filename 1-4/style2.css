@@ -15,13 +15,25 @@
   background-color: #141f40;
 }
 
+.left{
+  float: left;
+  width: 150px;
+  height: 250px;
+  background-color: #80bfa8;
+}
+
+/* .right-upper-l{
+  float: left;
+} */
+
 .right-l-upper{
   float: left;
   width: 150px;
   height: 50px;
   background-color: #dbd400;
 }
-.right-l-left{
+
+.right-upper-r{
   float: left;
   width: 100px;
   height: 150px;
@@ -29,23 +41,17 @@
 }
 
 .right-l-lower{
-  margin-top: 50px;
+  float: left;
   width: 150px;
   height: 100px;
   background-color: #0093b7;
 }
 
 .right-lower{
+  float: left;
   width: 250px;
   height: 100px;
   background-color: #8c2727;
-}
-
-.left{
-  float: left;
-  width: 150px;
-  height: 250px;
-  background-color: #80bfa8;
 }
 
 .footer{
@@ -65,10 +71,13 @@
   .header{
     width: 300px;
   }
+  .left{
+    width: 100px;
+  }
   .right-l-upper{
     width: 125px;
   }
-  .right-l-left{
+  .right-upper-r{
     width: 75px;
   }
   .right-l-lower{
@@ -77,13 +86,9 @@
   .right-lower{
     width: 200px;
   }
-  .left{
-    width: 100px;
-  }
   .footer{
     width: 300px;
   }
-  
 }
 
 @media screen and (max-width: 479px) {
@@ -91,28 +96,25 @@
     width: 150px;
   }
   .left{
-    clear: left;
     width: 150px;
     height: 100px;
   }
-  .right-l-left{
+  .right-upper-l{
     clear: left;
-    width: 150px;
-    height: 100px;
   }
   .right-l-upper{
-    clear: left;
     width: 150px;
   }
   .right-l-lower{
     width: 150px;
   }
+  .right-upper-r{
+    width: 150px;
+  }
   .right-lower{
     width: 150px;
   }
-  .footer{
-    margin-top: 200px;
+    .footer{
     width: 150px;
   }
-  
 }
