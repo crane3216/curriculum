@@ -22,9 +22,9 @@
   background-color: #80bfa8;
 }
 
-/* .right-upper-l{
+.right-upper-l{
   float: left;
-} */
+}
 
 .right-l-upper{
   float: left;
@@ -106,12 +106,16 @@
     width: 150px;
   }
   .right-l-lower{
+    clear: left;
     width: 150px;
   }
   .right-upper-r{
+    clear: left;
+    height: 100px;
     width: 150px;
   }
   .right-lower{
+    clear: left;
     width: 150px;
   }
     .footer{
